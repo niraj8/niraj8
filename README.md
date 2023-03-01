@@ -16,3 +16,4 @@ Here are some ideas to get you started:
 -->
 
 ![Notable](metrics.plugin.notable.indepth.svg)
+![Lines](metrics.plugin.lines.history.svg)
