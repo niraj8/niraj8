@@ -1,12 +1,12 @@
 name: Metrics
 
 on:
-  schedule: 
-  - cron: "0 0 * * *"
+  schedule:
+    - cron: "0 0 * * *"
 
   push:
     branches: "main"
-  
+
   workflow_dispatch:
 
 jobs:
@@ -15,18 +15,15 @@ jobs:
     permissions:
       contents: write
     steps:
-      # - uses: lowlighter/metrics@latest
-      #   with:
-      #     token: ${{ secrets.METRICS_TOKEN }}
-      
-      name: Contributions
-      uses: lowlighter/metrics@latest
-      with:
-        plugin_notable: yes
-        filename: metrics.plugin.notable.svg
-        token: ${{ secrets.METRICS_TOKEN }}
-        base: ""
-      
+
+      - name: Contributions
+        uses: lowlighter/metrics@latest
+        with:
+          plugin_notable: yes
+          filename: metrics.plugin.notable.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          base: ""
+
       - name: Repositories and diff history
         uses: lowlighter/metrics@latest
         with:
@@ -37,4 +34,3 @@ jobs:
           plugin_lines_sections: repositories, history
           plugin_lines_repositories_limit: 2
           plugin_lines_history_limit: 1
-

@@ -15,5 +15,5 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 -->
 
-![Notable](metrics.plugin.notable.indepth.svg)
+![Notable](metrics.plugin.notable.svg)
 ![Lines](metrics.plugin.lines.history.svg)
