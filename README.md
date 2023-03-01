@@ -15,4 +15,4 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 -->
 
-![Metrics](/github-metrics.svg)
+![Notable](metrics.plugin.notable.indepth.svg)
