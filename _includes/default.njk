@@ -7,14 +7,11 @@ title: Niraj Palecha
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/water.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/light.css">
     <title>{{ title }}</title>
   </head>
   <body>
-  <nav>
-    <a href="/">🏠</a>
-    <a href="/now">/now</a>
-  </nav>
+    {% include "nav.njk" %}
     {{ content | safe }}
   </body>
 </html>

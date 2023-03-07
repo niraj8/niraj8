@@ -1,3 +1,6 @@
+---
+title: Niraj Palecha
+---
 
 <!doctype html>
 <html lang="en">
@@ -5,22 +8,17 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    
+    {# Google Fonts #}
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap" rel="stylesheet">
     
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/light.css">
-    <title>Niraj Palecha</title>
+    <title>{{ title }}</title>
   </head>
   <body>
     <h1 style="text-align:center;font-size:3.5em;font-family: 'Roboto', sans-serif;">Niraj Palecha</h1>
-    
-    <nav style="text-align: center;">
-    <a href="/">home</a>
-    / <a href="/now">now</a>
-    / <a target="_blank" href="https://drive.google.com/file/d/1qmi-oRkVwu7wrFtgDmmt509mbc8OtIdf/view?usp=sharing">resume</a>
-    
-</nav>
+    {{ content | safe }}
+    {% include "nav.njk" %}
   </body>
 </html>
