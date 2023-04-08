@@ -5,7 +5,11 @@ title: What am I doing now?
 ---
 # What I'm doing now
 
-Updated - March 7, 2023 from Pune, India
+Updated - April 8, 2023 from Pune, India
+
+## Mussoorie Trip
+
+A week ago I returned from a long trip in Mussoorie. Along the way I met many wonderful people, had some great conversations and learned a lot.
 
 ## This website
 
@@ -19,16 +23,11 @@ I have always wanted to learn a musical instrument, for the past month I have be
 
 I recently finished reading **Make Time**, which made me understand among other things, the importance of using and maintaining a Calendar. 
 
-Thinking about reading only fiction books for this month. Started reading **Station Eleven** by Emily St. John Mandel.
+Thinking about reading only fiction books for this month. Still reading **Station Eleven** by Emily St. John Mandel.
 
 
 ## Tech and Career
 
 On the career front, I was working as a DevOps Consultant for a startup. Right now, I am learning more about containerization & go.
 
-Also, on the lookout for open-source projects in this space where I can contribute and learn more.
-
-
-## Of Cats and Kittens
-
-My cat gave birth to 3 kittens. We have been taking care of them for the past 2 months. Now, we are looking for people interested in adopting them. If you are interested in adopting a kitten in Pune/Mumbai, please reach out to me by email.
+If you are looking for some help with DevOps practises for your org or team, feel free to reach out to me(email and socials in the footer)
