@@ -1,6 +1,5 @@
 ---
 layout: default.njk
-permalink:  now.html
 title: What am I doing now?
 ---
 # What I'm doing now
