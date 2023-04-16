@@ -8,7 +8,7 @@ Updated - April 17, 2023 from Pune, India
 
 ## Trip to Musoorie
 
-<img src="./images/musoorie-sunset.jpeg" alt="Sunset in Musoorie" width="500"/>
+<img src="../images/musoorie-sunset.jpeg" alt="Sunset in Musoorie" width="500"/>
 
 A few weeks ago I returned from a long trip in Mussoorie.
 
