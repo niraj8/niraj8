@@ -23,9 +23,9 @@ title: I use
 
 ### Reading
 
-- [Blinkist](https://www.blinkist.com/) for summaries before picking up non-fiction books
+- Kindle
+- [Omnivore](https://omnivore.app/) - for rss feeds, newsletters, and to read things later
 
 ### Devices
 
-- [Macbook Pro 13" M2](https://www.apple.com/macbook-pro-13/) as my main computer
-- [Mac Mini M2](https://www.apple.com/mac-mini/) as my home computer and server
+- [Macbook Pro 13" M2](https://www.apple.com/macbook-pro-13/) as my work laptop
