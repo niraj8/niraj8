@@ -3,6 +3,8 @@ layout: default.njk
 title: collected
 description: A collection of quotes, notes, links and other things I've collected over time.
 ---
+2024-04-05
+> The easy cure for analysis paralysis is doing something stupid and making people explain to you why it's wrong. Iterate on that until you run out of wrong. - [candied_orange on Stack Overflow](https://softwareengineering.stackexchange.com/a/444099/92068)
 
 2024-04-04 [Vivekananda and The Art of Memory](https://mast.queensu.ca/~murty/memory.pdf) by M. Ram Murty
 
