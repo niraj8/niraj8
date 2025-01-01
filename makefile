@@ -1,3 +1,10 @@
-.PHONY: build
+.PHONY: build dev serve
+
 build:
-	sh build.sh
+	@sh build.sh
+
+dev:
+	npx -y @11ty/eleventy --serve
+
+serve: build
+	npx -y serve docs/
