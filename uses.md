@@ -29,4 +29,3 @@ title: I use
 - Kindle
 - [Omnivore](https://omnivore.app/) - for rss feeds, newsletters, and to read things later
 - [Notion](https://www.notion.so/) for databases and project management
-- 
