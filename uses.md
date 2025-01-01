@@ -6,6 +6,8 @@ title: I use
 ## Apps
 
 - [Arc](https://arc.net/) as my main web browser
+- [IntelliJ IDEA](https://www.jetbrains.com/idea/) for go development
+- [VS Code](https://code.visualstudio.com/) for everything else
 
 ### Productivity
 
@@ -18,14 +20,13 @@ title: I use
 ### Notes and Knowledge Management
 
 - [Obsidian](https://obsidian.md/) for notes and knowledge management
-- [Notion](https://www.notion.so/) for databases and project management
 - [Google Drive](https://www.google.com/drive/) for cloud storage for files, documents and spreadsheets
 
-### Reading
+## In the Past
 
+- [Firefox](https://www.mozilla.org/en-US/firefox/) for work related emails and
+  - with [Multi-Account Containers](https://addons.mozilla.org/en-US/firefox/addon/multi-account-containers/) to work with multiple work profiles
 - Kindle
 - [Omnivore](https://omnivore.app/) - for rss feeds, newsletters, and to read things later
-
-### Devices
-
-- [Macbook Pro 13" M2](https://www.apple.com/macbook-pro-13/) as my work laptop
+- [Notion](https://www.notion.so/) for databases and project management
+- 
