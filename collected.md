@@ -14,4 +14,4 @@ description: A collection of quotes, notes, links and other things I've collecte
 2024-03-27 [GTD in 15 minutes](https://hamberg.no/gtd)
 
 2024-03-04 
-> I wanted to be one of those people who have steaks to maintain, who scorch the ground with their intensity. - Looking for Alaska by John Green
+> I wanted to be one of those people who have streaks to maintain, who scorch the ground with their intensity. - Looking for Alaska by John Green
