@@ -3,6 +3,10 @@ layout: default.njk
 title: collected
 description: A collection of quotes, notes, links and other things I've collected over time.
 ---
+
+2025-01-04
+> ॥ अंतः अस्ति प्रारंभः ॥
+
 2025-01-01
 > When outer roles do not fit the shape of one's soul, a terrible one-sidedness occurs. - James Hollis
 
