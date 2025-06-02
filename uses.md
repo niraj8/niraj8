@@ -14,8 +14,8 @@ title: I use
 - [1Password](https://1password.com/) for password management
 - [Raycast](https://raycast.com/) for shortcuts on my laptop
 - [Flycut](https://github.com/TermiT/Flycut) for clipboard history
-- [Reminders](https://en.wikipedia.org/wiki/Reminders_(Apple)) for quick reminders, works nicely with Siri
-- [Calendar](https://en.wikipedia.org/wiki/Calendar_(Apple)) for calendar and notifications across devices
+- [Reminders](https://en.wikipedia.org/wiki/Reminders_(Apple))
+- [Calendar](https://en.wikipedia.org/wiki/Calendar_(Apple))
 
 ### Notes and Knowledge Management
 
