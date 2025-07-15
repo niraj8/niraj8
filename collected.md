@@ -4,6 +4,9 @@ title: collected
 description: A collection of quotes, notes, links and other things I've collected over time.
 ---
 
+2025-07-15
+> Tat Tvam Asi
+
 2025-01-04
 > ॥ अंतः अस्ति प्रारंभः ॥
 
