@@ -4,6 +4,9 @@ title: collected
 description: A collection of quotes, notes, links and other things I've collected over time.
 ---
 
+2025-07-24
+> If you're thinking without writing, you only think you're thinking. - Leslie Lamport
+
 2025-07-15
 > Tat Tvam Asi
 
