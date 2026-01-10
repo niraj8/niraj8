@@ -8,3 +8,5 @@ dev:
 
 serve: build
 	npx -y serve docs/
+
+up: dev

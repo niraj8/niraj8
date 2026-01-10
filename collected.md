@@ -4,6 +4,9 @@ title: collected
 description: A collection of quotes, notes, links and other things I've collected over time.
 ---
 
+2026-01-11
+> "The challenge is not to act automatically. It’s to find an action that is not automatic. From painting, to breathing, to talking, to fucking, to falling in love." - [Ex Machina - Pollack Scene](https://youtu.be/Z2tm1emL8YA)
+
 2025-07-24
 > If you're thinking without writing, you only think you're thinking. - Leslie Lamport
 
