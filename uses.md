@@ -17,6 +17,7 @@ title: I use
 - [Calendar](https://en.wikipedia.org/wiki/Calendar_(Apple))
 - [Actual Budget](https://actualbudget.org) - Budgeting software
 - [Shiori](https://github.com/go-shiori/shiori) - Bookmark manager
+- [tailscale](https://tailscale.com/)
 
 ### Notes and Knowledge Management
 
