@@ -14,4 +14,4 @@ title: projects
 ## Past
 
 - [startup runway estimator](https://startup-runway-estimator.vercel.app/)
-- [10:38](https://replit.com/@nirajftw/1038)
+- [10:38](https://1038--nirajftw.replit.app)
