@@ -34,3 +34,11 @@ description: A collection of quotes, notes, links and other things I've collecte
 2024-03-04 
 > I wanted to be one of those people who have streaks to maintain, who scorch the ground with their intensity.  
 > — Looking for Alaska by John Green
+
+---
+
+## Articles & Videos I keep coming back to
+
+- [The Seduction of Despair](https://www.youtube.com/watch?v=hIbqS6XoNiE)
+- [Give it 5 minutes](https://signalvnoise.com/posts/3124-give-it-five-minutes)
+- [Dashing dog, Searching for purpose](https://sive.rs/pdog)
