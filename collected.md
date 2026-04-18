@@ -4,6 +4,9 @@ title: collected
 description: A collection of quotes, notes, links and other things I've collected over time.
 ---
 
+2026-04-18
+> Not my circus, not my monkeys.
+
 2026-01-11
 > The challenge is not to act automatically.  
 > It’s to find an action that is not automatic.  
