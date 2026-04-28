@@ -4,6 +4,12 @@ title: collected
 description: A collection of quotes, notes, links and other things I've collected over time.
 ---
 
+2026-04-28
+> [...] we should be careful  
+> Of each other, we should be kind   
+> While there is still time.  
+> — [The Mower](https://www.poetryfoundation.org/poems/48423/the-mower-56d229a740294) By Philip Larkin
+
 2026-04-18
 > Not my circus, not my monkeys.
 
