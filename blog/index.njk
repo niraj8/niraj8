@@ -1,0 +1,123 @@
+---
+layout: default.njk
+title: blog
+permalink: /blog/index.html
+---
+
+<style>
+  .blog-wrap {
+    display: flex;
+    gap: 2.5rem;
+    min-height: 60vh;
+    align-items: flex-start;
+    margin-top: 2rem;
+  }
+  .blog-sidebar {
+    width: 160px;
+    flex-shrink: 0;
+    border-right: 1px solid;
+    padding-right: 1.5rem;
+    padding-top: 0.25rem;
+  }
+  .blog-sidebar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  .blog-sidebar li {
+    margin-bottom: 0.85rem;
+  }
+  .blog-sidebar a {
+    text-decoration: none;
+    opacity: 0.45;
+    font-size: 0.9em;
+    line-height: 1.4;
+    display: block;
+  }
+  .blog-sidebar a:hover {
+    opacity: 0.75;
+  }
+  .blog-sidebar a.active {
+    opacity: 1;
+    font-weight: 600;
+  }
+  .blog-content {
+    flex: 1;
+    min-width: 0;
+    padding-top: 0.1rem;
+  }
+  .blog-post {
+    display: none;
+  }
+  .blog-post.visible {
+    display: block;
+  }
+  .blog-post-date {
+    opacity: 0.5;
+    font-size: 0.85em;
+    margin: 0 0 0.25rem 0;
+  }
+  .blog-post h1 {
+    margin-top: 0.25rem;
+  }
+  @media (max-width: 600px) {
+    .blog-wrap { flex-direction: column; }
+    .blog-sidebar {
+      width: 100%;
+      border-right: none;
+      border-bottom: 1px solid;
+      padding-right: 0;
+      padding-bottom: 1rem;
+    }
+  }
+</style>
+
+{% set posts = collections.posts %}
+
+{% if posts.length %}
+<div class="blog-wrap">
+  <nav class="blog-sidebar">
+    <ul>
+      {% for post in posts %}
+      <li>
+        <a href="#{{ post.fileSlug }}" class="post-link" data-slug="{{ post.fileSlug }}">{{ post.data.title }}</a>
+      </li>
+      {% endfor %}
+    </ul>
+  </nav>
+
+  <div class="blog-content">
+    {% for post in posts %}
+    <div id="{{ post.fileSlug }}" class="blog-post">
+      <p class="blog-post-date">{{ post.date | readableDate }}</p>
+      <h1>{{ post.data.title }}</h1>
+      {{ post.templateContent | safe }}
+    </div>
+    {% endfor %}
+  </div>
+</div>
+
+<script>
+  const links = document.querySelectorAll('.post-link');
+  const posts = document.querySelectorAll('.blog-post');
+
+  function show(slug) {
+    posts.forEach(p => p.classList.toggle('visible', p.id === slug));
+    links.forEach(l => l.classList.toggle('active', l.dataset.slug === slug));
+  }
+
+  links.forEach(link => {
+    link.addEventListener('click', e => {
+      e.preventDefault();
+      const slug = link.dataset.slug;
+      history.pushState(null, '', '#' + slug);
+      show(slug);
+    });
+  });
+
+  const initial = window.location.hash.slice(1) || (posts[0] && posts[0].id);
+  if (initial) show(initial);
+</script>
+{% else %}
+<p>nothing here yet.</p>
+{% endif %}

@@ -1,4 +1,4 @@
 ---
 layout: home.njk
-permalink:  index.html
+permalink: /index.html
 ---

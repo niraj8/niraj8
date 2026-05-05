@@ -1,50 +1,108 @@
-
 <!doctype html>
 <html lang="en">
-
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" type="image/x-icon" href="/favicon.ico">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/light.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/water.css">
   <script>
     !function(t,e){var o,n,p,r;e.__SV||(window.posthog=e,e._i=[],e.init=function(i,s,a){function g(t,e){var o=e.split(".");2==o.length&&(t=t[o[0]],e=o[1]),t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}}(p=t.createElement("script")).type="text/javascript",p.crossOrigin="anonymous",p.async=!0,p.src=s.api_host.replace(".i.posthog.com","-assets.i.posthog.com")+"/static/array.js",(r=t.getElementsByTagName("script")[0]).parentNode.insertBefore(p,r);var u=e;for(void 0!==a?u=e[a]=[]:a="posthog",u.people=u.people||[],u.toString=function(t){var e="posthog";return"posthog"!==a&&(e+="."+a),t||(e+=" (stub)"),e},u.people.toString=function(){return u.toString(1)+".people (stub)"},o="init capture register register_once register_for_session unregister unregister_for_session getFeatureFlag getFeatureFlagPayload isFeatureEnabled reloadFeatureFlags updateEarlyAccessFeatureEnrollment getEarlyAccessFeatures on onFeatureFlags onSurveysLoaded onSessionId getSurveys getActiveMatchingSurveys renderSurvey canRenderSurvey identify setPersonProperties group resetGroups setPersonPropertiesForFlags resetPersonPropertiesForFlags setGroupPropertiesForFlags resetGroupPropertiesForFlags reset get_distinct_id getGroups get_session_id get_session_replay_url alias set_config startSessionRecording stopSessionRecording sessionRecordingStarted captureException loadToolbar get_property getSessionProperty createPersonProfile opt_in_capturing opt_out_capturing has_opted_in_capturing has_opted_out_capturing clear_opt_in_out_capturing debug getPageViewId captureTraceFeedback captureTraceMetric".split(" "),n=0;n<o.length;n++)g(u,o[n]);e._i.push([i,s,a])},e.__SV=1)}(document,window.posthog||[]);
     posthog.init('phc_xWZDBp9Dl0Ww1StH0avTxpDcuALfMAN22PJYEYIKRAz', {
         api_host: 'https://us.i.posthog.com',
-        person_profiles: 'identified_only', // or 'always' to create profiles for anonymous users as well
+        person_profiles: 'identified_only',
     })
   </script>
-  <title>What am I doing now?</title>
+  
+  <title>blog</title>
 </head>
-
 <body>
+  
   <nav style="text-align: center;">
     <a href="/">home</a>
     / <a href="/projects">projects</a>
+    / <a href="/blog">blog</a>
     / <a href="/collected">collected</a>
     
     / <a href="/uses">uses</a>
     / <a target="_blank" href="/resume">resume</a>
 </nav>
   <main>
-    <h1>What I'm doing now</h1>
-<p>Updated - April 17, 2023 from Pune, India</p>
-<h2>Trip to Musoorie</h2>
-<img src="../images/musoorie-sunset.jpeg" alt="Sunset in Musoorie" width="500"/>
-<p>A few weeks ago I returned from a long trip in Mussoorie.</p>
-<h2>This website</h2>
-<p>I have setup a basic website with <a href="https://nownownow.com/about" target="_blank">a 'now' page</a> (this page). For a quick and easy solution, I built it with 11ty, light.css &amp; hosted it on Github Pages.</p>
-<p>I read about the <a href="https://sive.rs/now" target="_blank">now</a> page on Derek Sivers website a long time ago, and recently came across <a href="https://moinaabdul.com/" target="_blank">Moina Abdul's</a> website and her now page. This inspired me to set this up.</p>
-<h2>Music and Reading</h2>
-<p>I have always wanted to learn a musical instrument, for the past month I have been learning to play the Ukelele. My goal for the next 2 months is to learn to play a couple of songs and be able to sing while strumming.</p>
-<p>I recently finished reading <strong>Make Time</strong>, which made me understand among other things, the importance of using and maintaining a Calendar, which I haven't started doing anyway😅.</p>
-<p>Finished <strong>Station Eleven</strong> by Emily St. John Mandel. Send me your book recommendations.</p>
-<h2>Tech and Career</h2>
-<p>On the career front, I was working as a DevOps Consultant for a startup. Right now, I am learning more about containerization &amp; go. Starting work on a few freelance projects soon.</p>
-<p>If you are looking for some help with DevOps practises for your org or team, feel free to reach out to me(email and socials in the footer)</p>
+    
+<style>
+  .blog-wrap {
+    display: flex;
+    gap: 2.5rem;
+    min-height: 60vh;
+    align-items: flex-start;
+    margin-top: 2rem;
+  }
+  .blog-sidebar {
+    width: 160px;
+    flex-shrink: 0;
+    border-right: 1px solid;
+    padding-right: 1.5rem;
+    padding-top: 0.25rem;
+  }
+  .blog-sidebar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  .blog-sidebar li {
+    margin-bottom: 0.85rem;
+  }
+  .blog-sidebar a {
+    text-decoration: none;
+    opacity: 0.45;
+    font-size: 0.9em;
+    line-height: 1.4;
+    display: block;
+  }
+  .blog-sidebar a:hover {
+    opacity: 0.75;
+  }
+  .blog-sidebar a.active {
+    opacity: 1;
+    font-weight: 600;
+  }
+  .blog-content {
+    flex: 1;
+    min-width: 0;
+    padding-top: 0.1rem;
+  }
+  .blog-post {
+    display: none;
+  }
+  .blog-post.visible {
+    display: block;
+  }
+  .blog-post-date {
+    opacity: 0.5;
+    font-size: 0.85em;
+    margin: 0 0 0.25rem 0;
+  }
+  .blog-post h1 {
+    margin-top: 0.25rem;
+  }
+  @media (max-width: 600px) {
+    .blog-wrap { flex-direction: column; }
+    .blog-sidebar {
+      width: 100%;
+      border-right: none;
+      border-bottom: 1px solid;
+      padding-right: 0;
+      padding-bottom: 1rem;
+    }
+  }
+</style>
+
+
+
+
+<p>nothing here yet.</p>
+
 
   </main>
   
 </body>
-
 </html>
