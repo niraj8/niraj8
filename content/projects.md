@@ -5,6 +5,7 @@ title: projects
 
 ## Currently Working on 
 
+- [lexicon](https://niraj.fyi/lexicon) - a meditative typing game
 - [india-jobs-ai-exposure](https://niraj8.github.io/india-jobs-ai-exposure/) - Heavily Inspired by karpathy.ai/jobs
 - upsite - simple multi-region uptime monitoring with status pages, ssl cert checks, notifications
 - compass - a personal dashboard
