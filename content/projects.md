@@ -4,7 +4,8 @@ title: projects
 ---
 
 ## Currently Working on 
-
+- [mailprune](https://github.com/niraj8/mailprune) - email triage tui. bulk trash/archive/unsubscribe by sender. 
+  -  `brew install niraj8/tap/mailprune`
 - [lexicon](https://niraj.fyi/lexicon) - a meditative typing game
 - [india-jobs-ai-exposure](https://niraj8.github.io/india-jobs-ai-exposure/) - Heavily Inspired by karpathy.ai/jobs
 - upsite - simple multi-region uptime monitoring with status pages, ssl cert checks, notifications
