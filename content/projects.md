@@ -10,6 +10,7 @@ title: projects
 
 
 ## Recent
+- [file-tinder](/blog/#file-tinder) - Tinder style UI for clearing out files from `Downloads/` folder
 - [mac-dev-handbook](https://github.com/niraj8/mac-dev-handbook) - Set up a new MacBook, plus learn the basics nobody teaches you(see /handbook)
 - [lexicon](https://niraj.fyi/lexicon) - a meditative typing game
 - [india-jobs-ai-exposure](https://niraj8.github.io/india-jobs-ai-exposure/) - Heavily Inspired by karpathy.ai/jobs
