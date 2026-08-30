@@ -21,4 +21,28 @@ Use Cases -
 
 I pair this with [organize](https://organize.readthedocs.io/en/latest/) to move files I decided to keep organized into folders.
 
+
+```
+# Sample ~/.config/organize/config.yaml
+rules:
+  # ---------------------------------------------------------------
+  # 1. SECRETS - quarantine, never delete
+  # ---------------------------------------------------------------
+  - name: "Secrets - quarantine for manual review"
+    locations: ~/Downloads
+    subfolders: false
+    filter_mode: any
+    filters:
+      - extension: [pem, gpg, key, p12, pfx, keychain, asc]
+      - name:
+          contains:
+            - client_secret
+            - recovery-codes
+            - private-key
+            - service-account
+          case_sensitive: false
+    actions:
+      - move: "~/Downloads/_SECRETS_REVIEW/"
+```
+
 Try it yourself: [https://github.com/niraj8/things/tree/main/file-tinder](https://github.com/niraj8/things/tree/main/file-tinder)
