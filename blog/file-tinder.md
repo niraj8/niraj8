@@ -4,7 +4,7 @@ title: "build: file-tinder"
 date: 2026-08-30
 ---
 
-Tinder style UI for clearing out files from `Downloads/` folder
+Tinder style UI for clearing out files from `Downloads/Desktop/<Any>` folder
 
 Right is keep, Left is delete, R is Rename, U for undo. O to open the file.
 
@@ -16,33 +16,38 @@ Right is keep, Left is delete, R is Rename, U for undo. O to open the file.
 </video>
 
 Use Cases -
-- Clear out Downloads folder(or specify the folder: `bun run index.ts dir-name` )
-- If you have Google Drive/Dropbox/OneDrive mounted, you could triage that too
+- Clear out Downloads folder(or specify the folder: `file-tinder dir-name` )
+- If you have Google Drive/Dropbox/OneDrive mounted, you could triage that too.
 
-I pair this with [organize](https://organize.readthedocs.io/en/latest/) to move files I decided to keep organized into folders.
+## Try it yourself: `brew install niraj8/tap/file-tinder`
 
+I pair this with [organize](https://organize.readthedocs.io/en/latest/) to move files I decided to keep them organized into folders.
 
-```
-# Sample ~/.config/organize/config.yaml
+```yaml
+# Sample Rules from ~/.config/organize/config.yaml
 rules:
-  # ---------------------------------------------------------------
-  # 1. SECRETS - quarantine, never delete
-  # ---------------------------------------------------------------
-  - name: "Secrets - quarantine for manual review"
+  # Handled duplicate files
+  - name: "Duplicate files (checksum)"
     locations: ~/Downloads
     subfolders: false
-    filter_mode: any
     filters:
-      - extension: [pem, gpg, key, p12, pfx, keychain, asc]
-      - name:
-          contains:
-            - client_secret
-            - recovery-codes
-            - private-key
-            - service-account
-          case_sensitive: false
+      - duplicate:
+          detect_original_by: created
+          hash_algorithm: sha256
     actions:
-      - move: "~/Downloads/_SECRETS_REVIEW/"
+      - trash
+
+  # Trash Older files
+  - name: "Installers older than 60 days"
+    locations: ~/Downloads
+    subfolders: false
+    filters:
+      - extension: [dmg, pkg, ipa]
+      - lastmodified:
+          days: 60
+          mode: older
+    actions:
+      - trash
 ```
 
-Try it yourself: [https://github.com/niraj8/things/tree/main/file-tinder](https://github.com/niraj8/things/tree/main/file-tinder)
+Source: [https://github.com/niraj8/file-tinder](https://github.com/niraj8/file-tinder)
