@@ -51,3 +51,4 @@ description: A collection of quotes, notes, links and other things I've collecte
 - [The Seduction of Despair](https://www.youtube.com/watch?v=hIbqS6XoNiE)
 - [Give it 5 minutes](https://signalvnoise.com/posts/3124-give-it-five-minutes)
 - [Dashing dog, Searching for purpose](https://sive.rs/pdog)
+- [Shitty First Drafts](https://wrd.as.uky.edu/sites/default/files/1-Shitty%20First%20Drafts.pdf)
