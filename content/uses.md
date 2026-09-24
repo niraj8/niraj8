@@ -16,17 +16,12 @@ title: I use
 - [Reminders](https://en.wikipedia.org/wiki/Reminders_(Apple))
 - [Calendar](https://en.wikipedia.org/wiki/Calendar_(Apple))
 - [Actual Budget](https://actualbudget.org) - Budgeting software
-- [Shiori](https://github.com/go-shiori/shiori) - Bookmark manager
+- [Readeck](https://readeck.org/) - Bookmark manager
 - [tailscale](https://tailscale.com/)
-
-### Notes and Knowledge Management
-
 - [Obsidian](https://obsidian.md/) for notes and knowledge management
-- [Google Drive](https://www.google.com/drive/) for cloud storage for files, documents and spreadsheets
 
 ## Subscriptions
 
 - [Claude Pro](https://claude.ai/) — AI assistant
-- [YouTube Premium](https://www.youtube.com/premium) — family plan
 - [Blinkist](https://www.blinkist.com/) — book summaries
 - [NYT Games](https://www.nytimes.com/games) — puzzles
